@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   (function($){
     var ListView = Backbone.View.extend({    
-      el: $('body div div'),
+      el: $('div#richard-iii div'),
       initialize: function(){
         _.bindAll(this, 'render'); 
         this.render(); 

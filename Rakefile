@@ -2,7 +2,7 @@ BASENAME = File.basename(Dir.getwd)
 
 USER = "lenni"
 HOST = "lenni.info"
-PATH = "#{BASENAME}"
+PATH = "www/#{BASENAME}"
 
 task :default => ["deploy"]
 
