@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   (function($){
     var ListView = Backbone.View.extend({    
-      el: $('body'), // attaches `this.el` to an existing element.
+      el: $('body div div'),
       initialize: function(){
         _.bindAll(this, 'render'); 
         this.render(); 
